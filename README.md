@@ -1,31 +1,72 @@
-# React & Tailwind CSS Starter Pack
+# Edtech Project
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+This is a full-stack Edtech platform built with **React**, **Tailwind CSS**, **Node.js**, **Express.js**, and **MongoDB**.  
+It provides course management, instructor dashboards, student progress tracking, and payment integration with Razorpay.
 
-## Usage
+## Frontend Setup (React + Tailwind CSS)
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+### Usage
 
-1. Clone the repository to your local machine.
+Follow these steps to run the project locally:
+
+1. **Clone the repository to your local machine**
     ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
+    git clone https://github.com/Tjain2002/EdtechProject.git
     ```
 
-1. Install the required packages.
+2. **Navigate to the project folder**
     ```sh
-    cd react-tailwind-css-starter-pack
+    cd EdtechProject
+    ```
+
+3. **Install dependencies**
+    ```sh
     npm install
     ```
 
-1. Start the development server.
+4. **Start the development server**
     ```sh
     npm start
     ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+5. **Open the project in your browser**
+    Go to [http://localhost:3000](http://localhost:3000) to view your project.
+
+---
+
+## Backend Setup (Node.js + Express)
+
+1. **Navigate to the backend folder**
+    ```sh
+    cd server
+    ```
+
+2. **Install dependencies**
+    ```sh
+    npm install
+    ```
+
+3. **Start the backend server**
+    ```sh
+    npm run dev
+    ```
+
+---
+
+## Features
+- User authentication & authorization (JWT-based)
+- Instructor dashboard with analytics
+- Course creation and management
+- Video playback and progress tracking
+- Razorpay payment integration
+- Responsive UI using Tailwind CSS
+
+---
 
 ## Contributing
+Contributions are welcome! Feel free to open issues and submit pull requests.
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+---
+
+## License
+This project is licensed under the MIT License.
