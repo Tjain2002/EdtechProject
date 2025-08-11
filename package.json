@@ -1,5 +1,5 @@
 {
-  "name": "react-tailwind-css-starter-pack",
+  "name": "edtech-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,11 +30,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git"
+    "url": "git+https://github.com/Tjain2002/EdtechProject.git"
   },
-  "author": "Pranay Gupta",
+  "author": "Tanisha jain",
   "bugs": {
-    "url": "https://github.com/thepranaygupta/react-tailwind-css-starter-pack/issues"
+    "url": "https://github.com/Tjain2002/EdtechProject/issues"
   },
   "scripts": {
     "start": "react-scripts start",
